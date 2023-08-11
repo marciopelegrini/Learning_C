@@ -8,5 +8,5 @@ int main(void){
     LOOP(counter, 1, 10)
         PRINT(counter)
     ENDLOOP
-    return 0;
+    return 0; 
 }

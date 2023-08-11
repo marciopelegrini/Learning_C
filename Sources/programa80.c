@@ -61,10 +61,10 @@ int main()
 
     arvore* t = criaArvore();
 
-    insereDadoArvore(&t, 12);
-    insereDadoArvore(&t, 15);
-    insereDadoArvore(&t, 10);
-    insereDadoArvore(&t, 13);
+    insereDadoArvore(&t, 2);
+    insereDadoArvore(&t, 7);
+    insereDadoArvore(&t, 5);
+    insereDadoArvore(&t, 9);
 
     mostraArvore(t);
 

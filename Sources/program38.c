@@ -21,5 +21,8 @@ int main(void)
 
     printf("A variavel 'p' ocupa %ld bytes em memoria.\n", qtd * sizeof(int));
 
+    free(p);
+    p = NULL;
+
     return 0;
 }
